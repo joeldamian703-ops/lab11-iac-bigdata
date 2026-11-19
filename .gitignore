@@ -5,3 +5,14 @@ crash.log
 .terraform.lock.hcl.backup
 data/
 .DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Spark
+.sparkStaging/
+metastore_db/
+spark-warehouse/
